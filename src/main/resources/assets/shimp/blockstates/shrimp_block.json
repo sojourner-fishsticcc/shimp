@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "shimp:block/shrimp_block"
+    }
+  }
+}
