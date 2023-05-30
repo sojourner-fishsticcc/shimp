@@ -21,6 +21,5 @@ public class Shimp
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ShimpItems.register(modEventBus);
         ShimpBlocks.register(modEventBus);
-        modEventBus.addListener(ShimpItems::addItemsToTabs);
     }
 }
